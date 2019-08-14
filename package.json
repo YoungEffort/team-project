@@ -1,0 +1,19 @@
+{
+  "name": "team-project",
+  "version": "1.0.0",
+  "description": "技术团队管理系统",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungEffort/team-project.git"
+  },
+  "author": "youngeffort",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoungEffort/team-project/issues"
+  },
+  "homepage": "https://github.com/YoungEffort/team-project#readme"
+}
