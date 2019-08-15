@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/YoungEffort/team-project/issues"
   },
-  "homepage": "https://github.com/YoungEffort/team-project#readme"
+  "homepage": "https://github.com/YoungEffort/team-project#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  }
 }
