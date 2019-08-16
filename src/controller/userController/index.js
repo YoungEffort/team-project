@@ -1,10 +1,10 @@
-const user=require('../../mysqlHelper/user')
+const user = require('../../mysqlHelper/user');
 
-module.exports={
-    register:async function(ctx){
-        console.log(ctx.request.body)
-        const response = await user.register()
-        ctx.body=response
-    },
-    login:async function(){}
-}
+module.exports = {
+  register: async function(ctx) {
+    ctx.set('Content-Type', 'application/json');
+    const response = await user.register(ctx.request.body);
+    ctx.body = response;
+  },
+  login: async function() {}
+};

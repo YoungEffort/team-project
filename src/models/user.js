@@ -1,12 +1,12 @@
 const connection = require('../mysql').connection;
 
 module.exports = {
-  register: function() {
+  register: function(params) {
     let sql =
       'INSERT INTO auth_login(id,login_name,password,create_time,last_login_time) VALUES(0,?,?,?,?)';
     var sqlParams = [
-      '菜鸟工具',
-      'https://c.runoob.com',
+      params.loginName,
+      params.password,
       new Date(),
       new Date()
     ];
