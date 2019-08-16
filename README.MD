@@ -29,3 +29,19 @@
 
 1. [如何在 Node.js 中使用 import / export 的三种方法](https://blog.csdn.net/zwkkkk1/article/details/81564971)
 2. node模块引用导出（require/module.exports=...）
+
+
+#### 文件结构
+```shell
+.
+
+└── src     源码
+    ├── config  项目配置文件
+    └── controller  路由分发的控制器函数
+    ├── middleware  中间件
+    ├── models  数据库crud操作
+    ├── mysql  mysql配置
+    ├── mysqlHelper  处理数据库crud结果逻辑
+    ├── router  路由
+    ├── app.js  服务入口
+```
