@@ -23,6 +23,7 @@
 3. mysql数据库操作
    
    * 文档：https://www.runoob.com/nodejs/nodejs-mysql.html
+   * sql查询转义：转义的'\''就是一个字符串\'
 
 
 
