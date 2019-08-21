@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/YoungEffort/team-project#readme",
   "dependencies": {
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.6.0",
     "koa-router": "^7.4.0",
     "mysql": "^2.17.1"
   }
