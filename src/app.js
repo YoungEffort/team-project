@@ -14,7 +14,7 @@ app
   .use(errorHandle)
   .use(
     jwt({ secret: config.secret }).unless({
-      path: [/\/get/, '/api/user/login']
+      path: [/\/get/, '/api/user/login','/api/user/register']
     })
   )
   .use(bodyParser())
