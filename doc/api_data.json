@@ -1,6 +1,69 @@
 [
   {
     "type": "get",
+    "url": "/api/get/project/querylist",
+    "title": "项目列表",
+    "name": "Project",
+    "group": "Project",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>code码.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Arrar",
+            "optional": false,
+            "field": "data",
+            "description": "<p>数据.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "msg",
+            "description": "<p>信息.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{ \n     \"code\": '200',\n     \"data\":response, \n     \"msg\": '' \n}",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 500": [
+          {
+            "group": "Error 500",
+            "optional": false,
+            "field": "500",
+            "description": "<p>服务器错误.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"UserNotFound\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "src/doc/project.js",
+    "groupTitle": "Project"
+  },
+  {
+    "type": "get",
     "url": "/api/get/techstack/querylist",
     "title": "技术栈列表",
     "name": "TechStack",
