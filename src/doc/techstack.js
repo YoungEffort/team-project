@@ -3,8 +3,9 @@
  * @apiName TechStack
  * @apiGroup Tech
  *
- * @apiSuccess {String} firstname Firstname of the User.
- * @apiSuccess {String} lastname  Lastname of the User.
+ * @apiSuccess {String} code code码.
+ * @apiSuccess {Arrar} data  数据.
+ * @apiSuccess {String} msg  信息.
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK

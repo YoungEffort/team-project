@@ -6,8 +6,9 @@
  * @apiParam {String} loginName 用户名.
  * @apiParam {String} password 密码.
  *
- * @apiSuccess {String} firstname Firstname of the User.
- * @apiSuccess {String} lastname  Lastname of the User.
+ * @apiSuccess {String} code code码.
+ * @apiSuccess {String} token token.
+ * @apiSuccess {String} msg  信息.
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
@@ -34,8 +35,9 @@
  * @apiParam {String} loginName 用户名.
  * @apiParam {String} password 密码.
  *
- * @apiSuccess {String} firstname Firstname of the User.
- * @apiSuccess {String} lastname  Lastname of the User.
+ * @apiSuccess {String} code code码.
+ * @apiSuccess {null} null  null.
+ * @apiSuccess {String} msg  信息.
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK

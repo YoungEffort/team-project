@@ -12,15 +12,22 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
+            "field": "code",
+            "description": "<p>code码.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Arrar",
+            "optional": false,
+            "field": "data",
+            "description": "<p>数据.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
+            "field": "msg",
+            "description": "<p>信息.</p>"
           }
         ]
       },
@@ -88,15 +95,22 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
+            "field": "code",
+            "description": "<p>code码.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
+            "field": "token",
+            "description": "<p>token.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "msg",
+            "description": "<p>信息.</p>"
           }
         ]
       },
@@ -164,15 +178,22 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
+            "field": "code",
+            "description": "<p>code码.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "null",
+            "optional": false,
+            "field": "null",
+            "description": "<p>null.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
+            "field": "msg",
+            "description": "<p>信息.</p>"
           }
         ]
       },
