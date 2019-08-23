@@ -1,0 +1,7 @@
+{
+    "name": "team-project",
+    "version": "0.1.0",
+    "description": "apiDoc of team-project",
+    "title": "team-project API",  
+    "url" : "http://localhost:3000"
+}
